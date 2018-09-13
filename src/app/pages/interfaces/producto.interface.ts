@@ -1,7 +1,6 @@
 export interface Producto {
-    frase: string;
-    nombre: string;
-    subtitulo: string;
-    url: string;
-    web: string;
-  }
+  categoria: string;
+  cod: string;
+  titulo: string;
+  url: string;
+}
